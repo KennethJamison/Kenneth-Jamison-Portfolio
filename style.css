@@ -1,0 +1,209 @@
+
+/*styling font and background*/
+*{
+  background-color: black;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+/* styling nav bar */
+nav{
+  text-align: center;
+  max-width: 100%;
+  float: none;
+  background-color: transparent;
+  height: 20%;
+}
+.logo{
+  text-align: center;
+}
+
+.logo img{
+  max-width: 100%;
+  height: 250px;
+       
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding:10px 5px;
+  overflow: hidden;
+  background-color:  transparent;
+  color: white;
+}
+
+li {
+  justify-content: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/*styling my picture to align on the page correctlly*/
+.MyPic{
+  text-align: center;
+}
+
+.MyPic img {
+  display: inline-flex;
+  max-width: 100%;
+  height: 500px;
+  text-align: center;
+}
+
+
+ol{
+  background-color: transparent;
+  text-align: center;
+  
+  
+  }
+li {
+  background-color: transparent;
+
+}
+/*adding hover to my nav bar*/
+li a:hover {
+  background-color: #111;
+}
+/*flex box for structure */
+.flex-grid {
+  display: -webkit-box;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+  justify-content: space-between;
+  padding: 10px 5px;
+}
+
+.flex-grid .col {
+  -webkit-box-flex: 1;
+          flex: 1;
+          justify-content: center;
+          text-align: center;
+          align-content: center;
+          
+}
+
+.flex-grid-thirds {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+          text-align: center;
+          
+}
+
+.flex-grid-thirds .col {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+/*making my website responsive for smaller devices */
+@media (max-width: 400px) {
+  .flex-grid,
+  .flex-grid-thirds {
+    display: block;
+  }
+  .flex-grid .col,
+  .flex-grid-thirds .col {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+}
+
+.flex-grid {
+  margin: 0 0 20px 0;
+}
+
+.col {
+  text-shadow: 1px solid black;
+  color: rgb(36, 35, 35);
+  background: lightblue;
+  padding: 20px;
+
+
+}
+
+h1{
+  background-color: transparent;
+}
+
+p{
+  background-color: transparent;
+  display: inline-flex;
+  
+}
+
+h2{
+  background-color: transparent;
+  
+}
+
+a {
+  background-color: transparent;
+  
+}
+body{
+  background-color: transparent;
+}
+
+.logoTwo{
+  background-color: transparent;
+  text-decoration: none;
+  display: inline;
+  
+  
+}
+
+.logoTwo img {
+  height: 20px;
+  background-color: transparent;
+
+}
+
+.logoTwo li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  padding: 10px;
+}
+
+.logoTwo li a:hover {
+  background-color: transparent;
+}
+
+
+
+ol {
+  display: inline;
+ 
+  
+  list-style-type: none;
+}
+
+/*style for welcome animation */
+
+
+.ml2 {
+  font-weight: 500;
+  font-size: 3.5em;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
