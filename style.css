@@ -3,7 +3,7 @@
 *{
   background-color: black;
   font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- 
+  color: black;
 }
 /* styling nav bar */
 nav{
@@ -132,8 +132,9 @@ body {
 .col {
   text-shadow: 1px solid black;
   color: rgb(36, 35, 35);
-  background: lightblue;
+  background: grey;
   padding: 20px;
+  border-radius: 2px;
 
 
 }
@@ -206,4 +207,8 @@ ol {
 .ml2 .letter {
   display: inline-block;
   line-height: 1em;
+}
+
+h4{
+  color: white;
 }
